@@ -18,15 +18,15 @@ CloudPDF is a proof-of-concept that demonstrates how a locally downloaded PDF ca
 
 ```
 ┌────────────────────┐         ┌──────────────────┐         ┌──────────────┐
-│   Web Dashboard    │────────▶│  Express Server   │────────▶│   SQLite DB  │
-│  (Generate & Edit) │         │  (API + PDF Gen)  │         │  (Content)   │
+│   Web Dashboard    │────────▶│  Express Server  │────────▶│   SQLite DB  │
+│  (Generate & Edit) │         │  (API + PDF Gen) │         │  (Content)   │
 └────────────────────┘         └──────────────────┘         └──────────────┘
                                        ▲
                                        │ HTTP Request
                                        │ (Net.HTTP.request)
                                ┌───────┴────────┐
-                               │  PDF in Adobe   │
-                               │ Acrobat Reader  │
+                               │  PDF in Adobe  │
+                               │ Acrobat Reader │
                                └────────────────┘
 ```
 
