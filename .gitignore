@@ -1,0 +1,5 @@
+node_modules/
+*.db
+server/public/downloads/
+.env
+.DS_Store

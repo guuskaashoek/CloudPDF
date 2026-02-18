@@ -1,0 +1,26 @@
+{
+    "name": "cloudpdf",
+    "version": "1.0.0",
+    "description": "Generate PDFs that dynamically fetch and display live data from a server using embedded Adobe Acrobat JavaScript",
+    "main": "server/index.js",
+    "scripts": {
+        "start": "node server/index.js",
+        "dev": "nodemon server/index.js"
+    },
+    "keywords": [
+        "pdf",
+        "acrobat",
+        "javascript",
+        "live-update",
+        "dynamic-pdf"
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.18.2",
+        "better-sqlite3": "^11.7.0",
+        "pdf-lib": "^1.17.1"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.3"
+    }
+}
